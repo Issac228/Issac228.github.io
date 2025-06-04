@@ -33,7 +33,6 @@
         let weight = parseFloat(document.getElementById("weight").value);
         if (!height || !weight || height <= 0 || weight <= 0) {
             alert("請輸入身高與體重");
-            alert("異常");
             return;
         }
         let BMI = weight / (height * height);
